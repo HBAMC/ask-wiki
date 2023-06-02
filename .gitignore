@@ -1,0 +1,7 @@
+.DS_Store
+.venv
+.vscode
+.chroma_cache
+
+data/*.txt
+*.bin
