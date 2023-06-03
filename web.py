@@ -55,7 +55,7 @@ def llm_thread(g, prompt):
         )
         llm.client.verbose = False
 
-        qa = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=docsearch.as_retriever(), return_source_documents=True)
+        qa = RetrievalQA.from_chain_type(llm=llm, chain_type="refine", retriever=docsearch.as_retriever(), return_source_documents=True)
         qa({'query': prompt})
     finally:
         g.close()

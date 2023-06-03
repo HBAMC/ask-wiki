@@ -26,7 +26,7 @@ llm.client.verbose = False
 embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
 docsearch = Chroma(persist_directory='./.chroma_cache', embedding_function=embeddings)
 
-qa = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=docsearch.as_retriever(), return_source_documents=True)
+qa = RetrievalQA.from_chain_type(llm=llm, chain_type="refine", retriever=docsearch.as_retriever(), return_source_documents=True)
 
 prompt = ''
 while True:
