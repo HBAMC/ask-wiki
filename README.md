@@ -32,4 +32,4 @@ Use AI to query Wiki content
     python query.py
 
     # Web UI
-    python web.py
+    python ask_wiki.py
