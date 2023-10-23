@@ -1,8 +1,11 @@
-# Ask Wiki
+# Ask Wiki & Charts
 
 Use AI to query Wiki content
 
-![screenshot](https://raw.githubusercontent.com/HBAMC/ask-wiki/master/screenshot.gif?token=GHSAT0AAAAAAB4TUAT2YIMITRYI4QJRC6CMZDZSVLQ)
+![ask_wiki](https://raw.githubusercontent.com/HBAMC/ask-wiki/master/ask_wiki.gif)
+
+
+![ask_charts](https://raw.githubusercontent.com/HBAMC/ask-wiki/master/ask_charts.gif)
 
 ## Usage
 
